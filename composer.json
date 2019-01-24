@@ -15,7 +15,7 @@
     "autoload": {
         "psr-4": {
             "ApiPlatformFilterValidator\\ApiPlatform\\Core\\": "src/FilterValidator/",
-            "Jdeniau\\ApiPlatformFilterValidator\\": "src/Bundle/"
+            "Jdeniau\\ApiPlatformFilterValidatorBundle\\": "src/Bundle/"
         }
     }
 }

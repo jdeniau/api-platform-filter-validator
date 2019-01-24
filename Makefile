@@ -17,3 +17,4 @@ extract:
 
 change-namespace:
 	find src -type f -name '*.php' -exec sed -i 's/namespace ApiPlatform/namespace ApiPlatformFilterValidator\\ApiPlatform/g' {} \;
+	find src -type f -name '*.php' -exec sed -i 's/use ApiPlatform/use ApiPlatformFilterValidator\\ApiPlatform/g' {} \;
