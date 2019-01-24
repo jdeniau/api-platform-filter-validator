@@ -1,0 +1,21 @@
+{
+    "name": "jdeniau/api-platform-filter-validator",
+    "description": "Validate APIPlatform filter values, waiting https://github.com/api-platform/core/pull/1723 to be merged",
+    "type": "symfony-bundle",
+    "require": {
+        "api-platform/core": "^2.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Julien Deniau",
+            "email": "julien.deniau@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "ApiPlatformFilterValidator\\ApiPlatform\\Core\\": "src/FilterValidator/",
+            "Jdeniau\\ApiPlatformFilterValidator\\": "src/Bundle/"
+        }
+    }
+}
