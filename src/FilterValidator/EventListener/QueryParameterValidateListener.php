@@ -13,9 +13,9 @@ declare(strict_types=1);
 
 namespace ApiPlatformFilterValidator\ApiPlatform\Core\EventListener;
 
-use ApiPlatform\Core\Filter\QueryParameterValidator;
 use ApiPlatform\Core\Metadata\Resource\Factory\ResourceMetadataFactoryInterface;
 use ApiPlatform\Core\Util\RequestAttributesExtractor;
+use ApiPlatformFilterValidator\ApiPlatform\Core\Filter\QueryParameterValidator;
 use Symfony\Component\HttpKernel\Event\GetResponseEvent;
 
 /**
