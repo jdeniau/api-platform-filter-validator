@@ -11,7 +11,7 @@ extract:
 	cd api-platform-core; \
 	git remote add upstream git@github.com:api-platform/core; \
 	git fetch upstream; \
-	git diff --name-only --diff-filter=d upstream/master..HEAD src | grep -v '\.xml' | xargs -I '{}' cp --parents '{}' ../src/FilterValidator/
+	git diff --name-only --diff-filter=d upstream/main..HEAD src | grep -v '\.xml' | xargs -I '{}' cp --parents '{}' ../src/FilterValidator/
 	mv src/FilterValidator/src/* src/FilterValidator
 	rmdir src/FilterValidator/src/
 
